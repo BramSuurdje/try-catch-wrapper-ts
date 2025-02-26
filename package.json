@@ -1,0 +1,20 @@
+{
+  "name": "try-catch-ts",
+  "version": "1.0.0",
+  "description": "a simple wrapper for the try catch method",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BramSuurdje/try-catch-ts.git"
+  },
+  "author": "Bram Suurd",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.13.5",
+    "typescript": "^5.7.3"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
