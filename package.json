@@ -1,14 +1,18 @@
 {
   "name": "try-catch-wrapper-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a simple wrapper for the try catch method in typescript",
   "main": "dist/index.js",
+  "homepage": "https://github.com/BramSuurdje/try-catch-wrapper-ts",
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BramSuurdje/try-catch-wrapper-ts.git"
   },
-  "author": "Bram Suurd",
+  "files": [
+    "dist"
+  ],
+  "author": "Bram Suurd (https://github.com/BramSuurdje)",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^22.13.5",
@@ -16,5 +20,11 @@
   },
   "scripts": {
     "build": "tsc"
-  }
+  },
+  "keywords": [
+    "try",
+    "catch",
+    "wrapper",
+    "typescript"
+  ]
 }
